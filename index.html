@@ -11,7 +11,7 @@
   <meta property="og:url" content="https://tiendat-aops.github.io/">
   <meta property="og:type" content="profile">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23224b8d'/%3E%3Ctext x='16' y='21' font-family='Arial,sans-serif' font-size='14' font-weight='700' fill='%23fff' text-anchor='middle'%3ETD%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -27,7 +27,6 @@
       <a class="nav-home" href="#about-me">Homepage</a>
       <a href="#about-me">About Me</a>
       <a href="#publications">Publications</a>
-      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#education">Education</a>
       <a href="#honors">Honors</a>
@@ -36,7 +35,7 @@
 
   <div class="layout">
     <aside class="sidebar">
-      <div class="avatar" role="img" aria-label="Tien Dat Nguyen">TD</div>
+      <img class="avatar" src="images/avatar.jpg" alt="Tien Dat Nguyen" width="160" height="160">
       <div class="profile">
         <h1 class="name">Tien Dat Nguyen</h1>
         <p class="bio">University of Engineering and Technology, VNU Hanoi</p>
@@ -119,31 +118,41 @@
         </article>
       </section>
 
-      <section id="experience">
-        <h2>🔬 Academic Experience</h2>
-
-        <h3>Research Engineer &amp; Visiting Student, MBZUAI, UAE</h3>
-        <p class="sub">Research collaboration with the <a href="https://lre.inf.ethz.ch/" target="_blank" rel="noopener">Language, Reasoning and Education Lab at ETH Zurich</a>. Supervisor: <a href="https://ekochmar.github.io/about/" target="_blank" rel="noopener">Prof. Ekaterina Kochmar</a></p>
-        <p class="desc">Design and fine-tune LLMs for education, improve their educational capabilities through reinforcement learning, and prototype an LLM-based intelligent tutoring system.</p>
-
-        <h3>Teaching Assistant, Institute of Artificial Intelligence, IAI-UET, VNU</h3>
-        <p class="desc">Support undergraduate courses in Python for Data Engineering and Data Structures and Algorithms, and contribute to research on AI in education and NLP.</p>
-
-        <h3>AI National Team Coach for High School Students</h3>
-        <p class="desc">Responsible for NLP tasks, encompassing both theoretical and practical aspects.</p>
-      </section>
-
       <section id="projects">
         <h2>💻 Selected Projects</h2>
 
-        <h3>Symbol Detection &amp; Counting in Architectural Drawings</h3>
-        <p class="desc">End-to-end pipeline for counting small symbols on very large drawings, using sliding-window RF-DETR (31 classes; 99.9% mAP@50) with DINOv2 and OCR to separate look-alike symbols. Raised recall on a real drawing from 92% to 98.7%.</p>
+        <article class="paper">
+          <div class="paper-media">
+            <div class="badge">Computer Vision</div>
+            <a class="thumb" href="images/project-symbols.svg" target="_blank" rel="noopener"><img src="images/project-symbols.svg" alt="Schematic: sliding-window tiles go through RF-DETR detection, then DINOv2 and OCR, producing per-class counts, with 98.7% symbol recall." loading="lazy"></a>
+          </div>
+          <div class="paper-text">
+            <h3>Symbol Detection &amp; Counting in Architectural Drawings</h3>
+            <p>End-to-end pipeline for counting small symbols on very large drawings, using sliding-window RF-DETR (31 classes; 99.9% mAP@50) with DINOv2 and OCR to separate look-alike symbols. Raised recall on a real drawing from 92% to 98.7%.</p>
+          </div>
+        </article>
 
-        <h3>Enterprise AI Assistant for Internal Operations</h3>
-        <p class="desc">Full-stack LLM workplace assistant with multi-step tool calling over 30+ typed tools (HR data, Google Calendar, work emails), document Q&amp;A, and confirm-before-send safeguards.</p>
+        <article class="paper">
+          <div class="paper-media">
+            <div class="badge">LLM Agent</div>
+            <a class="thumb" href="images/project-assistant.svg" target="_blank" rel="noopener"><img src="images/project-assistant.svg" alt="Schematic: an employee request goes to an LLM assistant that calls HR, calendar, and email tools." loading="lazy"></a>
+          </div>
+          <div class="paper-text">
+            <h3>Enterprise AI Assistant for Internal Operations</h3>
+            <p>Full-stack LLM workplace assistant with multi-step tool calling over 30+ typed tools (HR data, Google Calendar, work emails), document Q&amp;A, and confirm-before-send safeguards.</p>
+          </div>
+        </article>
 
-        <h3>Voice Agent</h3>
-        <p class="desc">Real-time helpdesk agent on LiveKit with SIP phone integration and a 7-phase guided dialogue with 10+ stateful function tools, turning each call into a structured work-order ticket.</p>
+        <article class="paper">
+          <div class="paper-media">
+            <div class="badge">Voice AI</div>
+            <a class="thumb" href="images/project-voice.svg" target="_blank" rel="noopener"><img src="images/project-voice.svg" alt="Schematic: a SIP call runs through a LiveKit speech pipeline and a guided dialogue, ending in a work-order ticket." loading="lazy"></a>
+          </div>
+          <div class="paper-text">
+            <h3>Voice Agent</h3>
+            <p>Real-time helpdesk agent on LiveKit with SIP phone integration and a 7-phase guided dialogue with 10+ stateful function tools, turning each call into a structured work-order ticket.</p>
+          </div>
+        </article>
       </section>
 
       <section id="education">

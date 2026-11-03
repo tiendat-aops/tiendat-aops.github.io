@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif" text-anchor="middle">
+  <title>Schematic: a SIP call runs through a LiveKit speech pipeline and a guided dialogue, ending in a work-order ticket</title>
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#5b6470"/></marker>
+    <marker id="b" markerWidth="9" markerHeight="9" refX="1" refY="4" orient="auto"><path d="M8 0 0 4 8 8Z" fill="#5b6470"/></marker>
+  </defs>
+  <rect width="480" height="300" fill="#fff"/>
+  <rect x="124" y="8" width="346" height="104" rx="10" fill="#fafbfc" stroke="#9aa3ad" stroke-dasharray="6 4"/>
+  <text x="297" y="31" font-size="16" font-weight="600" fill="#5b6470">LiveKit real-time pipeline</text>
+  <g font-size="18" font-weight="600">
+    <rect x="12" y="44" width="84" height="56" rx="10" fill="#f6f7f8" stroke="#9aa3ad"/><text x="54" y="78" fill="#2f3437">SIP call</text>
+    <rect x="136" y="44" width="86" height="56" rx="10" fill="#e3ebf7" stroke="#8aa5d0"/><text x="179" y="78" fill="#224b8d">STT</text>
+    <rect x="248" y="44" width="98" height="56" rx="10" fill="#224b8d"/><text x="297" y="78" fill="#fff">GPT-4o</text>
+    <rect x="372" y="44" width="86" height="56" rx="10" fill="#e3ebf7" stroke="#8aa5d0"/><text x="415" y="78" fill="#224b8d">TTS</text>
+  </g>
+  <path d="M100 72h32" stroke="#5b6470" stroke-width="2" marker-start="url(#b)" marker-end="url(#a)"/>
+  <path d="M222 72h22M346 72h22" stroke="#5b6470" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M297 100v36" stroke="#5b6470" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="124" y="142" width="346" height="66" rx="10" fill="#f3efe2" stroke="#c9b98a"/>
+  <text x="297" y="170" font-size="19" font-weight="600" fill="#2f3437">Guided dialogue</text>
+  <text x="297" y="193" font-size="16" fill="#5b6470">7 phases, 10+ stateful function tools</text>
+  <path d="M297 208v18" stroke="#5b6470" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="124" y="232" width="346" height="60" rx="10" fill="#e4f1e4" stroke="#90bd90"/>
+  <text x="297" y="257" font-size="19" font-weight="600" fill="#2f5e2f">Work-order ticket</text>
+  <text x="297" y="279" font-size="16" fill="#5b6470">P0–P4 priority with SLAs</text>
+</svg>
