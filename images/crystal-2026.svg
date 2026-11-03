@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif" text-anchor="middle">
+  <title>Schematic: crystal structure, textual description, LLM, materials discovery</title>
+  <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#5b6470"/></marker></defs>
+  <rect width="480" height="300" fill="#fff"/>
+  <g stroke="#7a8fb0" stroke-width="2" fill="none">
+    <path d="M38 90h70v70H38zM66 62h70v70H66zM38 90l28-28M108 90l28-28M108 160l28-28M38 160l28-28"/>
+  </g>
+  <g fill="#224b8d"><circle cx="38" cy="90" r="6"/><circle cx="108" cy="90" r="6"/><circle cx="38" cy="160" r="6"/><circle cx="108" cy="160" r="6"/><circle cx="66" cy="62" r="6"/><circle cx="136" cy="62" r="6"/><circle cx="66" cy="132" r="6"/><circle cx="136" cy="132" r="6"/></g>
+  <circle cx="87" cy="111" r="9" fill="#d9822b"/>
+  <text x="87" y="194" font-size="15" font-weight="600" fill="#2f3437">Crystal structure</text>
+  <path d="M168 112h40" stroke="#5b6470" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="216" y="58" width="226" height="108" rx="10" fill="#f3efe2" stroke="#c9b98a"/>
+  <text x="329" y="84" font-size="15" font-weight="600" fill="#2f3437">Textual description</text>
+  <g fill="#a8976a"><rect x="236" y="100" width="186" height="7" rx="3"/><rect x="236" y="118" width="160" height="7" rx="3"/><rect x="236" y="136" width="174" height="7" rx="3"/></g>
+  <path d="M329 170v38" stroke="#5b6470" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="284" y="216" width="90" height="52" rx="10" fill="#e3ebf7" stroke="#8aa5d0"/>
+  <text x="329" y="248" font-size="17" font-weight="600" fill="#224b8d">LLM</text>
+  <path d="M280 242h-40" stroke="#5b6470" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="62" y="216" width="170" height="52" rx="10" fill="#e4f1e4" stroke="#90bd90"/>
+  <text x="147" y="248" font-size="15" font-weight="600" fill="#2f5e2f">Materials discovery</text>
+</svg>
