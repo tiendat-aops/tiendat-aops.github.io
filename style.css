@@ -124,7 +124,7 @@ li em { color: var(--heading); }
 /* Publication entries */
 .paper {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1fr);
+  grid-template-columns: 300px minmax(0, 1fr);
   gap: 22px;
   padding: 18px 0;
   border-bottom: 1px solid var(--rule);
