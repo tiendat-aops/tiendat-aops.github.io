@@ -8,7 +8,7 @@
   <rect x="80" y="104" width="320" height="74" rx="10" fill="#224b8d"/>
   <text x="240" y="135" font-size="21" font-weight="600" fill="#fff">LLM assistant</text>
   <text x="240" y="160" font-size="16" fill="#dbe5f5">multi-step tool calling</text>
-  <path d="M240 178v14M88 192h304M88 192v18M240 192v18M392 192v18" fill="none" stroke="#5b6470" stroke-width="2"/>
+  <path d="M240 178v14M88 192h304M88 192v22M240 192v22M392 192v22" fill="none" stroke="#5b6470" stroke-width="2"/>
   <g font-size="18" font-weight="600" fill="#2f3437">
     <rect x="24" y="214" width="128" height="46" rx="8" fill="#e3ebf7" stroke="#8aa5d0"/><text x="88" y="243">HR data</text>
     <rect x="176" y="214" width="128" height="46" rx="8" fill="#f3efe2" stroke="#c9b98a"/><text x="240" y="243">Calendar</text>
