@@ -115,6 +115,7 @@ h2 + h3 { margin-top: 0; }
 h3 + ul { margin-top: 4px; }
 
 .sub { margin: 0 0 4px; color: var(--muted); font-size: 14.5px; }
+.desc { margin: 4px 0 0; }
 
 ul { margin: 0; padding-left: 22px; }
 li { margin-bottom: 4px; }

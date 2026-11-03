@@ -110,79 +110,28 @@
       <section id="experience">
         <h2>🔬 Academic Experience</h2>
 
-        <h3>Research Engineer, MBZUAI, UAE</h3>
+        <h3>Research Engineer &amp; Visiting Student, MBZUAI, UAE</h3>
         <p class="sub">Research collaboration with the <a href="https://lre.inf.ethz.ch/" target="_blank" rel="noopener">Language, Reasoning and Education Lab at ETH Zurich</a>. Supervisor: <a href="https://ekochmar.github.io/about/" target="_blank" rel="noopener">Prof. Ekaterina Kochmar</a></p>
-        <ul>
-          <li>Conduct research in artificial intelligence, with a focus on Large Language Model (LLM) development.</li>
-          <li>Design, implement, and fine-tune novel LLMs focused on the educational domain.</li>
-          <li>Design and implement a prototype intelligent tutoring system integrating an LLM backbone.</li>
-        </ul>
-
-        <h3>Visiting Student, MBZUAI, UAE</h3>
-        <ul>
-          <li>Conducted research on improving the educational capabilities of LLMs through reinforcement learning under the supervision of Prof. Ekaterina Kochmar.</li>
-        </ul>
+        <p class="desc">Design and fine-tune LLMs for education, improve their educational capabilities through reinforcement learning, and prototype an LLM-based intelligent tutoring system.</p>
 
         <h3>Teaching Assistant, Institute of Artificial Intelligence, IAI-UET, VNU</h3>
-        <ul>
-          <li>Assisted in instruction and academic support for undergraduate courses including Python for Data Engineering and Data Structures and Algorithms.</li>
-          <li>Contributed to research projects in the Machine Learning Laboratory, focusing on AI applications in education and natural language processing.</li>
-        </ul>
+        <p class="desc">Support undergraduate courses in Python for Data Engineering and Data Structures and Algorithms, and contribute to research on AI in education and NLP.</p>
 
         <h3>AI National Team Coach for High School Students</h3>
-        <ul>
-          <li>Responsible for NLP tasks, encompassing both theoretical and practical aspects.</li>
-        </ul>
+        <p class="desc">Responsible for NLP tasks, encompassing both theoretical and practical aspects.</p>
       </section>
 
       <section id="projects">
-        <h2>💻 Industrial Projects</h2>
+        <h2>💻 Selected Projects</h2>
 
         <h3>Symbol Detection &amp; Counting in Architectural Drawings</h3>
-        <p class="sub">AI Engineer</p>
-        <ul>
-          <li>Built an end-to-end pipeline (PDF → per-class symbol counts → annotated PDF/JSON/COCO) to detect and count small symbols on very large architectural drawings, served via FastAPI.</li>
-          <li>Handled the scale gap (median symbol ≈ 36×36 px) with overlapping sliding-window tiling, RF-DETR detection (31 classes; 99.9% mAP@50, 92.5% mAP@50:95), and global NMS merging.</li>
-          <li>Added DINOv2 embedding classification within symbol groups (~92–93% per-symbol accuracy) and OCR with text-to-symbol matching to separate same-shape symbols with different labels.</li>
-          <li>Raised symbol recall on a real drawing from 92% (201/218) to 98.7% (224/227).</li>
-        </ul>
+        <p class="desc">End-to-end pipeline for counting small symbols on very large drawings, using sliding-window RF-DETR (31 classes; 99.9% mAP@50) with DINOv2 and OCR to separate look-alike symbols. Raised recall on a real drawing from 92% to 98.7%.</p>
 
         <h3>Enterprise AI Assistant for Internal Operations</h3>
-        <p class="sub">AI Engineer</p>
-        <ul>
-          <li>Built an LLM workplace assistant with multi-step tool calling over 30+ typed tools (HR/org data, Google Calendar, work emails) on the Vercel AI SDK, with name-disambiguation and confirm-before-send safeguards.</li>
-          <li>Enabled document Q&amp;A over attached PDFs/images via multimodal LLMs, persistent chat history, and a switchable model backend (GPT-4o/4.1, Gemini 2.5, DeepSeek).</li>
-          <li>Delivered the full-stack platform (Next.js, Prisma, MongoDB) with role-based access, an admin console, and Dockerized deployment behind Nginx.</li>
-        </ul>
+        <p class="desc">Full-stack LLM workplace assistant with multi-step tool calling over 30+ typed tools (HR data, Google Calendar, work emails), document Q&amp;A, and confirm-before-send safeguards.</p>
 
         <h3>Voice Agent</h3>
-        <p class="sub">AI Engineer</p>
-        <ul>
-          <li>Built a voice-first facilities-management helpdesk agent on a real-time LiveKit pipeline (STT, GPT-4o, TTS, VAD, noise cancellation) with SIP phone integration; benchmarked OpenAI Realtime and Gemini Live.</li>
-          <li>Designed a 7-phase guided dialogue with 10+ stateful function tools (slot filling, verification, P0–P4 priority with SLAs, safety handling, auto-approval vs. escalation); structured LLM output ensures only the spoken text reaches TTS.</li>
-          <li>Converted each call into a structured work-order ticket (MongoDB) with per-call latency metrics; Dockerized the stack.</li>
-        </ul>
-
-        <h3>Booking Agent Platform</h3>
-        <p class="sub">AI Engineer</p>
-        <ul>
-          <li>Built a hotel advisory chatbot with GPT-4o-mini tool calling over live hotel-system data (rooms, pricing, promotions, availability, prefilled booking link) and guardrails that ask for missing details instead of guessing.</li>
-          <li>Implemented the Flask backend with SQLite chat memory, SSE streaming, and unit tests.</li>
-        </ul>
-
-        <h3>Lo Ren IELTS Learning Platform</h3>
-        <p class="sub">Software Engineer</p>
-        <ul>
-          <li>Contributed to a full-stack IELTS preparation platform (Next.js, Express/Prisma, PostgreSQL, MinIO) with class and assignment management, a multi-type test builder, and automatic Reading/Listening scoring.</li>
-          <li>Set up and iterated on the GitHub Actions CI/CD pipeline that builds and pushes Docker images and deploys to a microk8s cluster via Helm, including automated database-migration handling after release.</li>
-        </ul>
-
-        <h3>Earlier Projects</h3>
-        <p class="sub">NLP Engineer</p>
-        <ul>
-          <li><strong>Vietnamese Legal Chatbot:</strong> DPR retriever (PhoBERT), MRC answer extraction, and GPT-2 response generation.</li>
-          <li><strong>Resume Information Extraction:</strong> rule-based extraction plus a spaCy NER model.</li>
-        </ul>
+        <p class="desc">Real-time helpdesk agent on LiveKit with SIP phone integration and a 7-phase guided dialogue with 10+ stateful function tools, turning each call into a structured work-order ticket.</p>
       </section>
 
       <section id="education">
